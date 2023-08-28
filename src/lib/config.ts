@@ -2,4 +2,6 @@ import { dev } from '$app/environment';
 
 export const title = 'Shakspeare';
 export const description = 'Sveltekit blog for poets';
-export const url = dev ? 'http://localhost:5173' : 'http://localhost:4173';
+export const url = dev
+	? 'http://localhost:5173'
+	: 'https://svelteblog-da6esslfu-huuzey.vercel.app/';
