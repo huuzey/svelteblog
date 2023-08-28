@@ -29,6 +29,11 @@ const config = {
 	extensions: ['.svelte', '.md'],
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
+		prerender: {
+			handleHttpError() {
+				return;
+			}
+		},
 		adapter: adapter()
 	}
 };
