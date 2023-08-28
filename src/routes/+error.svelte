@@ -1,15 +1,9 @@
 <script>
 	import { page } from '$app/stores';
+	import { redirect } from '@sveltejs/kit';
+	function home() {
+		return redirect(308, '/');
+	}
 </script>
 
-<div class="error">
-	<h1>{$page.status}: {$page.error?.message}</h1>
-</div>
-
-<style>
-	.error {
-		height: 100%;
-		display: grid;
-		place-content: center;
-	}
-</style>
+<div>Click on shakspeare to see posts</div>
