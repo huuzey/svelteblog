@@ -6,6 +6,10 @@ module.exports = {
 		'plugin:svelte/recommended',
 		'prettier'
 	],
+	rules: {
+		'@typescript-eslint/ban-ts-comment': ['error', { 'ts-ignore': 'allow-with-description' }]
+	},
+
 	parser: '@typescript-eslint/parser',
 	plugins: ['@typescript-eslint'],
 	parserOptions: {

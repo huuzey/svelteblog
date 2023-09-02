@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Toggle from './toggle.svelte';
 	import * as config from '$lib/config';
+	import { page } from '$app/stores';
 </script>
 
 <nav>
@@ -14,6 +15,9 @@
 		</li>
 		<li>
 			<a href="/contact">Contact</a>
+		</li>
+		<li>
+			<a href="/blog">Create Blog</a>
 		</li>
 	</ul>
 
