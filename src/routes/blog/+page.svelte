@@ -16,7 +16,7 @@
 				bind:value={title}
 				name="title"
 				placeholder="Enter your title"
-				class=" flex sm:w-64 md:w-96 rounded-full py-2 border-cyan-300 border-2 focus:outline-none px-3 placeholder:text-cyan-300"
+				class=" flex sm:w-64 md:w-96 rounded-full py-8 border-cyan-300 border-2 focus:outline-none px-3 placeholder:text-cyan-300"
 			/>
 		</label>
 		<label>

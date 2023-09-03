@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { formatDate } from '$lib/utils';
 	import * as config from '$lib/config';
-	import type { formeal } from './+page.server';
 
 	export let data;
 </script>
